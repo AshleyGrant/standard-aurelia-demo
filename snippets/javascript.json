@@ -19,7 +19,7 @@
       "import 'bootstrap';",
       "",
       "export class Welcome {",
-      "    heading = 'Welcome to Code on the Beach!';",
+      "    heading = 'Welcome to NDC Sydney!';",
       "    firstName = 'John';",
       "    lastName = 'Doe';",
       "",
@@ -57,7 +57,7 @@
     "body": [
       "import {inject} from 'aurelia-framework';",
       "import {HttpClient} from 'aurelia-fetch-client';",
-      "import 'fetch';",
+      "import 'whatwg-fetch';",
       "",
       "@inject(HttpClient)",
       "export class Users {",

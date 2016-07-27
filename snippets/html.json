@@ -4,7 +4,7 @@
     "body": [
       "<template>",
       "  <require from=\"bootstrap/css/bootstrap.css\"></require>",
-      "  <section class=\"col-sm-3\">",
+      "  <section class=\"col-sm-4\">",
       "    <h2>$\\{heading\\}</h2>",
       "",
       "    <form role=\"form\" submit.trigger=\"submit()\">",
@@ -70,7 +70,6 @@
     "prefix": "Users",
     "body": [
       "<template>",
-      "  <require from=\"users.css\"></require>",
       "  <section>",
       "      <h2>$\\{heading\\}</h2>",
       "      <div class=\"row\">",
