@@ -1,0 +1,86 @@
+{
+  /*
+	 // Place your snippets for JavaScript here. Each snippet is defined under a snippet name and has a prefix, body and
+	 // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	 // $1, $2 for tab stops, ${id} and ${id:label} and ${1:label} for variables. Variables with the same id are connected.
+	 // Example:
+	 "Print to console": {
+		"prefix": "log",
+		"body": [
+			"console.log('$1');",
+			"$2"
+		],
+		"description": "Log output to console"
+	}
+*/
+  "Welcome": {
+    "prefix": "welcome",
+    "body": [
+      "import 'bootstrap';",
+      "",
+      "export class Welcome {",
+      "    heading = 'Welcome to Code on the Beach!';",
+      "    firstName = 'John';",
+      "    lastName = 'Doe';",
+      "",
+      "  get fullName() {",
+      "    return `$\\{this.firstName\\} $\\{this.lastName\\}`;",
+      "  }",
+      "",
+      "  submit() {",
+      "    alert(`Welcome, $\\{this.fullName\\}!`);",
+      "  }",
+      "}",
+      ""
+    ]
+  },
+  "App": {
+    "prefix": "app",
+    "body": [
+      "import 'bootstrap';",
+      "",
+      "export class App {",
+      "  configureRouter(config, router) {",
+      "    config.title = 'Aurelia';",
+      "    config.map([",
+      "      { route: ['', 'welcome'], name: 'welcome',      moduleId: './welcome',      nav: true, title: 'Welcome' }",
+      "    ]);",
+      "",
+      "    this.router = router;",
+      "  }",
+      "}",
+      ""
+    ]
+  },
+  "Users": {
+    "prefix": "users",
+    "body": [
+      "import {inject} from 'aurelia-framework';",
+      "import {HttpClient} from 'aurelia-fetch-client';",
+      "import 'fetch';",
+      "",
+      "@inject(HttpClient)",
+      "export class Users {",
+      "  heading = 'Github Users';",
+      "  users = [];",
+      "",
+      "  constructor(http) {",
+      "    http.configure(config => {",
+      "      config",
+      "        .useStandardConfiguration()",
+      "        .withBaseUrl('https://api.github.com/');",
+      "    });",
+      "",
+      "    this.http = http;",
+      "  }",
+      "",
+      "  activate() {",
+      "    return this.http.fetch('users')",
+      "      .then(response => response.json())",
+      "      .then(users => this.users = users);",
+      "  }",
+      "}",
+      ""
+    ]
+  }
+}
