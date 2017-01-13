@@ -19,7 +19,7 @@
       "import 'bootstrap';",
       "",
       "export class Welcome {",
-      "    heading = 'Welcome to NDC Sydney!';",
+      "    heading = 'Welcome to Aurelia!';",
       "    firstName = 'John';",
       "    lastName = 'Doe';",
       "",
