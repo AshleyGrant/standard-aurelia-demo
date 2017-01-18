@@ -24,11 +24,11 @@
       "    lastName = 'Doe';",
       "",
       "  get fullName() {",
-      "    return `$\\{this.firstName\\} $\\{this.lastName\\}`;",
+      "    return `\\${this.firstName\\} \\${this.lastName\\}`;",
       "  }",
       "",
       "  submit() {",
-      "    alert(`Welcome, $\\{this.fullName\\}!`);",
+      "    alert(`Welcome, \\${this.fullName\\}!`);",
       "  }",
       "}",
       ""

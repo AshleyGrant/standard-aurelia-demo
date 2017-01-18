@@ -18,8 +18,8 @@
     "source": "src/**/*.js"
   },
   "markupProcessor": {
-    "id": "none",
-    "displayName": "None",
+    "id": "minimum",
+    "displayName": "Minimal Minification",
     "fileExtension": ".html",
     "source": "src/**/*.html"
   },
