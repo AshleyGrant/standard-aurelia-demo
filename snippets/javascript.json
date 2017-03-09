@@ -16,8 +16,6 @@
   "Welcome": {
     "prefix": "welcome",
     "body": [
-      "import 'bootstrap';",
-      "",
       "export class Welcome {",
       "    heading = 'Welcome to Aurelia!';",
       "    firstName = 'John';",
@@ -37,8 +35,6 @@
   "App": {
     "prefix": "app",
     "body": [
-      "import 'bootstrap';",
-      "",
       "export class App {",
       "  configureRouter(config, router) {",
       "    config.title = 'Aurelia';",
@@ -57,7 +53,6 @@
     "body": [
       "import {inject} from 'aurelia-framework';",
       "import {HttpClient} from 'aurelia-fetch-client';",
-      "import 'whatwg-fetch';",
       "",
       "@inject(HttpClient)",
       "export class Users {",

@@ -1,5 +1,5 @@
 {
-  "name": "demo",
+  "name": "ndc-sydney-2016-demo",
   "description": "An Aurelia client application.",
   "version": "0.1.0",
   "repository": {
@@ -8,8 +8,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "aurelia-animator-css": "^1.0.0",
-    "aurelia-bootstrapper": "^1.0.0",
+    "aurelia-bootstrapper": "^2.1.0",
+    "aurelia-animator-css": "^1.0.1",
     "aurelia-fetch-client": "^1.0.0",
     "bootstrap": "^3.3.7",
     "jquery": "^3.1.0",
@@ -20,9 +20,9 @@
   },
   "peerDependencies": {},
   "devDependencies": {
-    "aurelia-cli": "^0.24.0",
-    "aurelia-testing": "^1.0.0-beta.2.0.0",
-    "aurelia-tools": "^0.2.2",
+    "aurelia-cli": "^0.26.1",
+    "aurelia-testing": "^1.0.0-beta.2.0.1",
+    "aurelia-tools": "^1.0.0",
     "browser-sync": "^2.13.0",
     "connect-history-api-fallback": "^1.2.0",
     "gulp": "github:gulpjs/gulp#4.0",
